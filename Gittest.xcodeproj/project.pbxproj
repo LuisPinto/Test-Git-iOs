@@ -21,6 +21,7 @@
 		953C9614191985A000111F0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953C95F6191985A000111F0D /* UIKit.framework */; };
 		953C961C191985A000111F0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 953C961A191985A000111F0D /* InfoPlist.strings */; };
 		953C961E191985A000111F0D /* GittestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 953C961D191985A000111F0D /* GittestTests.m */; };
+		958C2349191AC84400478308 /* LLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 958C2348191AC84400478308 /* LLTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		953C9619191985A000111F0D /* GittestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GittestTests-Info.plist"; sourceTree = "<group>"; };
 		953C961B191985A000111F0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		953C961D191985A000111F0D /* GittestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GittestTests.m; sourceTree = "<group>"; };
+		958C2347191AC84400478308 /* LLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTest.h; sourceTree = "<group>"; };
+		958C2348191AC84400478308 /* LLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		953C95E6191985A000111F0D = {
 			isa = PBXGroup;
 			children = (
+				958C2347191AC84400478308 /* LLTest.h */,
+				958C2348191AC84400478308 /* LLTest.m */,
 				953C95F8191985A000111F0D /* Gittest */,
 				953C9617191985A000111F0D /* GittestTests */,
 				953C95F1191985A000111F0D /* Frameworks */,
@@ -253,6 +258,7 @@
 				953C9603191985A000111F0D /* LLAppDelegate.m in Sources */,
 				953C95FF191985A000111F0D /* main.m in Sources */,
 				953C9609191985A000111F0D /* LLViewController.m in Sources */,
+				958C2349191AC84400478308 /* LLTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				953C9623191985A000111F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		953C9624191985A000111F0D /* Build configuration list for PBXNativeTarget "GittestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				953C9626191985A000111F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
